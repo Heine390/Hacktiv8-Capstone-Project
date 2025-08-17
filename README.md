@@ -24,8 +24,7 @@ Link dataset: https://www.kaggle.com/competitions/gammafest25/data
 ## AI Support Explanation
 - LLM yang digunakan: IBM Granite 3.3 8B Instruct  
 - Alasan pemilihan: model ini dirancang untuk instruction-following dan lebih baik dalam pemahaman teks ilmiah.  
-- Pipeline eksperimen:  
-  1. Preprocessing teks (cleaning, lowercasing, tokenization, chunking).  
-  2. Membentuk pasangan teks (paper, reference).  
-  3. Memasukkan teks ke model Granite dengan prompt klasifikasi.  
-  4. Mengubah output model menjadi label 0 atau 1.  
+- Pipeline eksperimen:   
+  1. Membentuk pasangan teks (paper, reference).  
+  2. Memasukkan teks ke model Granite dengan prompt klasifikasi.  
+  3. Mengubah output model menjadi label 0 atau 1.  
